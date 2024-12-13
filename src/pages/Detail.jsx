@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../data.json";
 import "../Detail.css";
+import InteractiveHr from "../components/detailHr/DetailHr";
 
 function Detail() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -111,7 +112,10 @@ function Detail() {
         )}
 
         <footer>
-          <hr />
+          <InteractiveHr
+            currentImageIndex={currentImageIndex}
+            images={images}
+          />
           <div className="Footer-div">
             <div className="Footer-details">
               <h1>{images[currentImageIndex].name}</h1>

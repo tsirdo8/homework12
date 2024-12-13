@@ -3,11 +3,13 @@ import data from "../data.json";
 import { Link } from "react-router-dom";
 import "../Home.css";
 
+
 function Home() {
   console.log(data);
 
   return (
     <div>
+
       <div className="Galleria-div">
         {data.map((item) => (
           <Link to={`/detail/${item.id}`} key={item.id}>

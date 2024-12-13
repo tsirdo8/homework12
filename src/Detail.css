@@ -205,10 +205,10 @@
   flex-direction: column;
   gap: 0px;
   background: #ffffff;
-  position: absolute; /* or 'relative' depending on the positioning context */
+  position: absolute; 
   width: 405px;
   height: 320px;
-  margin-top: -20px; /* Consider transform: translateY(-20px) for more controlled positioning */
+  margin-top: -20px; 
   margin-left: 420px;
   z-index: 100;
 }
@@ -264,11 +264,11 @@ footer {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: flex-start; /* Align content to the top */
+  justify-content: flex-start; 
 }
 
 .main-content {
-  flex: 1; /* This will make sure the content area expands to fill the remaining space */
+  flex: 1; 
 }
 
 footer {
