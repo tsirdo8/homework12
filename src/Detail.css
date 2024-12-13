@@ -1,0 +1,276 @@
+.detail {
+  align-items: center;
+  padding: 2rem;
+}
+
+.detail__image-wrapper {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.detail__image {
+  position: absolute;
+  margin-left: 10px;
+  top: 60px;
+  max-width: 100%;
+  height: 560px;
+  width: 475px;
+}
+
+.detail__title {
+  margin-top: 50px;
+  text-align: left;
+
+  width: 380px;
+  height: 192px;
+  padding-left: 40px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Libre Baskerville;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.detail__artist {
+  width: 246px;
+  height: 19px;
+  padding-left: 40px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Libre Baskerville;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+
+.detail__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.detail__button {
+  background-color: rgb(23, 23, 23);
+  border: none;
+  padding: 20px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 12px;
+  position: absolute;
+  margin-top: 570px;
+  margin-left: 30px;
+  font-family: Libre Baskerville;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.4px;
+  letter-spacing: 2.142857074737549px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  opacity: 0.75;
+}
+
+.detail__button:hover {
+  opacity: 0.25;
+}
+
+.detail__description {
+  color: #7d7d7d;
+  position: absolute;
+  width: 350px;
+  height: 336px;
+  margin-top: 150px;
+  margin-left: 900px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Libre Baskerville;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  z-index: 2;
+}
+
+.detail__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.detail__modal-image {
+  padding-top: 10px;
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: 200px;
+}
+
+.detail__modal-close {
+  position: absolute;
+  width: 68px;
+  height: 17px;
+  margin-left: 950px;
+  top: 70px;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  margin-right: 350px;
+
+  cursor: pointer;
+  font-family: Libre Baskerville;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.36px;
+  letter-spacing: 3px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.portrait {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  top: 550px;
+  left: 505px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Year {
+  position: absolute;
+  margin-top: 30px;
+  width: 476px;
+  height: 150px;
+  margin-left: 850px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Libre Baskerville;
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 150px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3f3f3;
+}
+
+.descripWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.sourceLink {
+  position: absolute;
+  font-family: Libre Baskerville;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 11.16px;
+  letter-spacing: 1.9285714626312256px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  height: 9px;
+  margin-top: 550px;
+  margin-left: 900px;
+  gap: 0px;
+  opacity: 0px;
+  color: #7d7d7d;
+}
+.artistLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  background: #ffffff;
+  position: absolute; /* or 'relative' depending on the positioning context */
+  width: 405px;
+  height: 320px;
+  margin-top: -20px; /* Consider transform: translateY(-20px) for more controlled positioning */
+  margin-left: 420px;
+  z-index: 100;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.Footer-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer-details h1,
+.Footer-details p {
+  margin-top: 10px;
+}
+.Footer-details h1 {
+  font-family: Libre Baskerville;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Footer-details p {
+  font-family: Libre Baskerville;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.12px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #e5e5e5;
+}
+
+.Footer-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.Footer-buttons img {
+  width: 24px;
+  height: 24px;
+}
+.whole-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start; /* Align content to the top */
+}
+
+.main-content {
+  flex: 1; /* This will make sure the content area expands to fill the remaining space */
+}
+
+footer {
+  margin-top: 700px;
+}
